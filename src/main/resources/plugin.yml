@@ -1,0 +1,15 @@
+name: StreamPlugin
+version: ${project.version}
+main: xyz.ondercrew.streamplugin.StreamPlugin
+api-version: "1.13"
+load: STARTUP
+authors: [OnderCrew, PMH]
+description: Minecraft Bukkit Plugin For Onder Crew Streaming
+website: https://github.com/OnderCrew/streamPlugin
+commands:
+  twitch:
+    description: 특정 트위치 스트리머의 정보를 확인합니다
+    usage: /twitch <트위치ID>
+  nick:
+    description: 자신의 닉네임을 설정합니다
+    usage: /nick <닉네임>
